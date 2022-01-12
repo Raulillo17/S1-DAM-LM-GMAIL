@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+}
+#formulario{
+        width: 60%;
+        float: left;
+}
+#container {
+    width: 50%;
+    margin:  0 auto;
+    padding: 20px 0;
+}
+#principal {
+    border: solid 1px rgb(230, 228, 228);
+    border-radius: 6px;
+    position: relative;
+   
+}
+#idioma{
+    width: 50%;
+    float: left;
+}
+#imagen{
+    width: 40%;
+    float: right;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; /*Alinea Horizontalmente*/
+    align-items: center; /*Alinea verticalmente*/
+}
+#footerder{
+    width: 50%;
+    float: right;
+}
+.cb{
+    clear: both;
+}
+.p-34-26{
+    padding: 34px 26px;
+}
+#footerder li{
+    list-style-type: none;
+    float: right;
+    margin-left: 20px;
+}
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    padding: 16px 0;
+}
+footer nav a{
+    color: black;
+}
+#formulario input[value="Siguiente"]{
+    background-color: rgb(39, 101, 218);
+    float: right;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 30px;
+
+}
+.text-negro{
+    color: black;
+}
+#formulario input{
+    padding: 8px;
+    border: solid 1px gainsboro;
+    border-radius: 6px;
+}
+.w-50{
+    width: 44%;
+}
+.w-100{
+    width: 94%;
+}
+#formulario input:hover{
+    border: 1px solid rgb(31, 187, 226);
+}
